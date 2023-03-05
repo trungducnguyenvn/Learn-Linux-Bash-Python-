@@ -9,6 +9,7 @@ format:
 lint:
 	pylint --disable=R,C hello.py
 	##Disable warning in recomended and configuration
+	##Note : linting with too much verbose can cause unconfortable while learning
 
 
 test:
